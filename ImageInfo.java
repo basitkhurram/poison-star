@@ -29,7 +29,6 @@ public class ImageInfo {
         this.reel = reel;
     }
 
-
     public ImageInfo(float[] topLeft, float[] size, float radius, float lifespan, boolean animated){
         this.topLeft = topLeft;
         this.size = size;
@@ -40,24 +39,4 @@ public class ImageInfo {
         this.imageFrameColumns = 1;
     }
 
-    public ImageInfo(float[] topLeft, float[] size, float radius, float lifespan, int imageFrameColumns){
-        this.topLeft = topLeft;
-        this.size = size;
-        this.radius = radius;
-        this.lifespan = lifespan;
-        this.animated = false;
-        this.imageFrameRows = 1;
-        this.imageFrameColumns = imageFrameColumns;
-    }
-
-    public ImageInfo(float[] topLeft, float[] size, float radius, float lifespan,
-                     int imageFrameRows, int imageFrameColumns){
-        this.topLeft = topLeft;
-        this.size = size;
-        this.radius = radius;
-        this.lifespan = lifespan;
-        this.animated = false;
-        this.imageFrameRows = imageFrameRows;
-        this.imageFrameColumns = imageFrameColumns;
-    }
 }
