@@ -8,11 +8,11 @@ All graphics and audio effects are original work.
 
 Known bugs / upcoming changes:
 
-Faulty accelerometer steering
+Accelerometer steering requires correct calibration;
 
-App fails to release memory when paused
+App fails to release memory when paused;
 
-App resets game state upon resume
+App resets game state upon resume;
 
 
 Story mode to be added.
